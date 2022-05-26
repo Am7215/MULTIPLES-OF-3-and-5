@@ -1,0 +1,15 @@
+
+    factorial(number, question);
+    sum = sum_of_digits(number);
+    printf("%d\n",sum);
+}
+
+int main()
+{
+    int no_of_queries;
+    scanf("%d", &no_of_queries);
+    while(no_of_queries-- != 0)
+        solve();
+
+    return 0;
+}
